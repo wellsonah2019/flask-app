@@ -3,7 +3,7 @@ app = Flask(__name__)
 @app.route("/")
 def home():
         bg_color = "blue"
-        font_color = "white"
+        font_color = "black"
         return render_template('index.html', bg_color=bg_color, font_color=font_color)
 
 if __name__ == '__main__':
